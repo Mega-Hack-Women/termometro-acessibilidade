@@ -1,2 +1,2 @@
-# termometro-acessibilidade
+# Termômetro de Acessibilidade
 Termômetro de Acessibilidade
