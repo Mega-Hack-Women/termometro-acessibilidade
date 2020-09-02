@@ -1,21 +1,21 @@
 # Termômetro de Acessibilidade
 Termômetro de Acessibilidade
 
-Para iniciar o projeto frontend, seguir os passos:
+## Para iniciar o projeto frontend, seguir os passos:
 
-1) Entrar na pasta web
+### 1) Entrar na pasta web
 ```
-dc web
+cd web
 ```
 
-2) Rodar o seguinte código para instalar as dependências:
+### 2) Rodar o seguinte código para instalar as dependências:
 ```
 yarn install
 ```
 
-3) Para abrir o projeto localmente, rodar:
+### 3) Para abrir o projeto localmente, rodar:
 ```
 yarn start
 ```
 
-4) Caso dê tudo certo, acessar: http://localhost:3000  
+### 4) Caso dê tudo certo, acessar: http://localhost:3000  
