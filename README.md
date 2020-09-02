@@ -1,7 +1,12 @@
 # Termômetro de Acessibilidade
 Termômetro de Acessibilidade
 
-Para iniciar o projeto frontend, rodar o código:
+Para iniciar o projeto frontend, primeiro rodar o seguinte código para instalar as dependências:
+```
+yarn install
+```
+
+Para abrir o projeto localmente, rodar:
 ```
 yarn start
 ```
