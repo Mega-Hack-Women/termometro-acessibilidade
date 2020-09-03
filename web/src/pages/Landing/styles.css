@@ -1,0 +1,69 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font: 400 5rem 'Londrina Solid', cursive;
+    line-height: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 80%;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttons-container a {
+    width: 20rem;
+    height: 8.4rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+    font: 700 2.0rem Roboto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--color-button-text);
+}
+
+.buttons-container a:first-child {
+    margin-right: 1.6rem;
+}
+
+.buttons-container a.entre {
+    background: var(--color-primary-button-background);
+}
+
+.buttons-container a.entre:hover {
+    background: var(--color-primary-button-background-dark);
+}
+
+.buttons-container a.conheca {
+    background: var(--color-second-button-background-dark);
+}
+
+.buttons-container a.conheca:hover {
+    background: var(--color-second-button-background);
+    color: var(--color-second-button-background-dark);
+}

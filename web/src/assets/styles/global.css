@@ -2,6 +2,13 @@
     font-size: 60%;
 
     --color-background: #F0F0F7;
+
+    --color-button-text: #F0F1F7;
+    --color-primary-button-background: #6C6B7F;
+    --color-primary-button-background-dark: #45435B;
+
+    --color-second-button-background: #FFB8B9;
+    --color-second-button-background-dark: #FF636D;
 }
 
 * {
