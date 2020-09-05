@@ -2,3 +2,90 @@
     width: 100vw;
     height: 100vh;
 }
+
+.cadastro {
+    margin: 3rem;
+}
+
+#cadastro-pessoa .texto-principal {
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 3rem auto;
+}
+
+#cadastro-pessoa .cadastro .input-block label {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#cadastro-pessoa .cadastro .input-block + .input-block {
+    margin-top: 1.8rem;
+}
+
+#cadastro-pessoa .cadastro .input-block input, 
+#cadastro-pessoa .cadastro .input-block #data_nascimento {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-input-border);
+    outline: 0;
+
+    padding: 0 1.6rem;
+    font: 1.6rem;
+}
+
+#cadastro-pessoa .cadastro .input-block input:focus-within {
+    border: 1px solid var(--color-input-border-hover);
+}
+
+#cadastro-pessoa .cadastro .buttons {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cadastro-pessoa .cadastro .buttons .button-cadastrar, 
+#cadastro-pessoa .cadastro .buttons .button-voltar {
+    width: 15rem;
+    height: 6.4rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Roboto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    text-decoration: none;
+}
+
+#cadastro-pessoa .cadastro .buttons .button-cadastrar {
+    background-color: var(--color-second-button-background);
+    color: var(--color-second-button-text);
+}
+
+#cadastro-pessoa .cadastro .buttons .button-cadastrar:hover {
+    background-color: var(--color-second-button-background-hover);
+    color: var(--color-second-button-text-hover);
+}
+
+#cadastro-pessoa .cadastro .buttons .button-voltar {
+    background-color: var(--color-attention-button-background);
+    color: var(--color-attention-button-text);
+}
+
+#cadastro-pessoa .cadastro .buttons .button-voltar:hover {
+    background-color: var(--color-attention-button-background-hover);
+    color: var(--color-attention-button-text-hover);
+}
