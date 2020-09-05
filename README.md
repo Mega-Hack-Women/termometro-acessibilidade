@@ -1,6 +1,8 @@
 # Termômetro de Acessibilidade
 Termômetro de Acessibilidade
 
+
+
 ### Para iniciar o projeto frontend pela primeira vez localmente, seguir os passos:
 
 #### 1) Entrar na pasta web
