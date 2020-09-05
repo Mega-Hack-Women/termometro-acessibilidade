@@ -21,6 +21,8 @@
     --color-dark-blue: #013047;
     --color-light-blue: #209EBB;
     --color-lighter-blue: #8FCAE5;
+
+    --color-text-base: #032973;
 }
 
 * {
@@ -47,7 +49,7 @@ body,
 input,
 button,
 textarea {
-    font: 500 1.6rem Poppins;
+    font: 500 1.6rem Roboto;
     color: var(--color-text-base);
 }
 

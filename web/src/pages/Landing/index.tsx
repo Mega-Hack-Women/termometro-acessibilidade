@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo_Final_Cor.svg'
 
@@ -15,19 +16,19 @@ function Landing() {
             </div>
 
             <div className="buttons-container">
-                <a href="/cadastro-pessoa" className="novo-cadastro">
+                <Link to="/cadastro-pessoa" className="novo-cadastro">
                     Novo Cadastro
-                </a>
+                </Link>
 
-                <a href="/login" className="login">
+                <Link to="/login" className="login">
                     Login
-                </a>
+                </Link>
             </div>
 
             <div className="politicas-privacidade">
-                <a href="/politicas-privacidade" className="politicas-privacidade">
+                <Link to="/politicas-privacidade" className="politicas-privacidade">
                     Políticas de Privacidade
-                </a>
+                </Link>
             </div>
         </div>
     ) 
