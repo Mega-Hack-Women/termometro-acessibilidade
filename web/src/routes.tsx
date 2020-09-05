@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Landing from './pages/Landing';
+import Login from './pages/Login';
 import AvaliarEstabelecimento from './pages/AvaliarEstabelecimento';
 import CadastroEstabelecimento from './pages/CadastroEstabelecimento';
 import CadastroPessoa from './pages/CadastroPessoa';
@@ -15,6 +16,7 @@ function Routes() {
     return (
         <BrowserRouter>
             <Route path="/" exact component={Landing} />
+            <Route path="/login" component={Login} />
             <Route path="/avaliar-estabelecimento" component={AvaliarEstabelecimento} />
             <Route path="/cadastro-estabelecimento" component={CadastroEstabelecimento} />
             <Route path="/cadastro-pessoa" component={CadastroPessoa} />

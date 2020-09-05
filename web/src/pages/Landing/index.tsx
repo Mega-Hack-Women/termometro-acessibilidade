@@ -1,6 +1,6 @@
 import React from 'react';
 
-import heroImg from '../../assets/images/hero-image.svg'
+import logoImg from '../../assets/images/logo_Final_Cor.svg'
 
 import './styles.css';
 
@@ -11,16 +11,22 @@ function Landing() {
                 <h1>AcesSaúde</h1>
             </div>
             <div className="hero-image">
-                <img src={heroImg} alt="Pessoa andando de cadeira de rodas"/>
+                <img src={logoImg} alt="Logo AcesSaúde"/>
             </div>
 
             <div className="buttons-container">
-                <a href="" className="entre">
-                    Entre
+                <a href="/cadastro-pessoa" className="novo-cadastro">
+                    Novo Cadastro
                 </a>
 
-                <a href="" className="conheca">
-                    Conheça
+                <a href="/login" className="login">
+                    Login
+                </a>
+            </div>
+
+            <div className="politicas-privacidade">
+                <a href="/politicas-privacidade" className="politicas-privacidade">
+                    Políticas de Privacidade
                 </a>
             </div>
         </div>

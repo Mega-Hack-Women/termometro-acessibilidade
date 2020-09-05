@@ -3,12 +3,24 @@
 
     --color-background: #F0F0F7;
 
-    --color-button-text: #F0F1F7;
-    --color-primary-button-background: #6C6B7F;
-    --color-primary-button-background-dark: #45435B;
+    --color-primary-button-text: #000000;
+    --color-primary-button-text-hover: #000000;
+    --color-primary-button-background: #ffffff;
+    --color-primary-button-background-hover: #e4e4e4;
 
-    --color-second-button-background: #FFB8B9;
-    --color-second-button-background-dark: #FF636D;
+    --color-second-button-text: #FFFFFF;
+    --color-second-button-text-hover: #ffffff;
+    --color-second-button-background: #000000;
+    --color-second-button-background-hover: #1f1f1f;
+
+    --color-attention-button-text: #FFFFFF;
+    --color-attention-button-text-hover: #FFFFFF;
+    --color-attention-button-background: #ff0004;
+    --color-attention-button-background-hover: #b8000c;
+
+    --color-dark-blue: #013047;
+    --color-light-blue: #209EBB;
+    --color-lighter-blue: #8FCAE5;
 }
 
 * {
