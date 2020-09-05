@@ -11,12 +11,14 @@ import PesquisaEstabelecimento from './pages/PesquisaEstabelecimento';
 import ResultadoAvaliacoes from './pages/ResultadoAvaliacoes';
 import ResultadoEstabelecimento from './pages/ResultadoEstabelecimento';
 import SucessoCadastro from './pages/SucessoCadastro';
+import PoliticasPrivacidade from './pages/PoliticasPrivacidade';
 
 function Routes() {
     return (
         <BrowserRouter>
             <Route path="/" exact component={Landing} />
             <Route path="/login" component={Login} />
+            <Route path="/politicas-privacidade" component={PoliticasPrivacidade} />
             <Route path="/avaliar-estabelecimento" component={AvaliarEstabelecimento} />
             <Route path="/cadastro-estabelecimento" component={CadastroEstabelecimento} />
             <Route path="/cadastro-pessoa" component={CadastroPessoa} />
