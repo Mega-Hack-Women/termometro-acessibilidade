@@ -1,10 +1,14 @@
 import React from 'react';
 import axios from 'axios';
 
-import setaIcon from '../../images/icons/seta.svg';
+import SeparadorDeficiencia from '../SeparadorDeficiencia';
+import PerguntaConsultaAuditiva from '../PerguntaConsultaAuditiva';
+import PerguntaConsultaVisual from '../PerguntaConsultaVisual';
+import PerguntaConsultaMental from '../PerguntaConsultaMental';
+import PerguntaConsultaFisica from '../PerguntaConsultaFisica';
+import PerguntaConsultaVisualeFisica from '../PerguntaConsultaVisualeFisica';
 
 import './styles.css';
-
 export default class PostAvaliacao extends React.Component {
     state = {
         usuario: '',
@@ -37,60 +41,39 @@ export default class PostAvaliacao extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <div className="deficiencia">
-                    <div className="nome-deficiencia">
-                        <p className="descricao-deficiencia">Auditiva</p>
-                        <p className="separador"></p>
-                    </div>
-                </div>
+                <SeparadorDeficiencia deficiencia="Auditiva" />
 
-                <ul>
-                    <li>
-                        <div className="pergunta">
-                            <img src={setaIcon} alt="Seta indicador de pergunta" />
-                            <p>Os sinais sonoros existentes no ambiente são acompanhados por sinais luminosos?</p>
-                        </div>
-                        <div className="inputs-avaliacao">
-                            <input type="radio" name="1" id="sim" />
-                            <label htmlFor="sim">Sim</label>
+                <PerguntaConsultaAuditiva />
 
-                            <input type="radio" name="1" id="não" />
-                            <label htmlFor="não">Não</label>
+                <SeparadorDeficiencia deficiencia="Visual" />
 
-                            <input type="radio" name="1" id="parcialmente" />
-                            <label htmlFor="parcialmente">Parcialmente</label>
-                        </div>
-                    </li>
-                </ul>
+                <PerguntaConsultaVisual />
 
-                <ul>
-                    <li>
-                        <div className="pergunta">
-                            <img src={setaIcon} alt="Seta indicador de pergunta" />
-                            <p>Há possibilidade de recebimento e envio de mensagens escritas?</p>
-                        </div>
-                        <div className="inputs-avaliacao">
-                            <input type="radio" name="2" id="sim" />
-                            <label htmlFor="sim">Sim</label>
+                <SeparadorDeficiencia deficiencia="Fisica" />
 
-                            <input type="radio" name="2" id="não" />
-                            <label htmlFor="não">Não</label>
+                <PerguntaConsultaFisica />
 
-                            <input type="radio" name="2" id="parcialmente" />
-                            <label htmlFor="parcialmente">Parcialmente</label>
-                        </div>
-                    </li>
-                </ul>
+                <SeparadorDeficiencia deficiencia="Mental" />
 
-                <label>
-                    Usuario:
-                    <input type="text" name="usuario" id="usuario" onChange={this.handleChange} />
-                    <input type="text" name="prestador" id="prestador" onChange={this.handleChange} />
-                    <input type="text" name="indicador" id="indicador" onChange={this.handleChange} />
-                    <input type="text" name="checklist" id="checklist" onChange={this.handleChange} />
-                </label>
+                <PerguntaConsultaMental />
+
+                <SeparadorDeficiencia deficiencia="Visual e Física" />
+
+                <PerguntaConsultaVisualeFisica />
+
                 <button type="submit">Enviar</button>
             </form>
         )
     }
 }
+
+
+/*
+<label>
+    Usuario:
+    <input type="text" name="usuario" id="usuario" onChange={this.handleChange} />
+    <input type="text" name="prestador" id="prestador" onChange={this.handleChange} />
+    <input type="text" name="indicador" id="indicador" onChange={this.handleChange} />
+    <input type="text" name="checklist" id="checklist" onChange={this.handleChange} />
+</label>
+*/
