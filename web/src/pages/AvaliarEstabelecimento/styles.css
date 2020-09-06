@@ -1,0 +1,56 @@
+#avaliar-estabelecimento {
+    width: 100vw;
+    height: 100vh;
+}
+
+#avaliar-estabelecimento .checklist-container {
+    margin: 5rem;
+}
+
+#avaliar-estabelecimento .checklist-container li {
+    list-style-type: none;
+}
+
+#avaliar-estabelecimento .checklist-container .content-header .inicio-avaliacao,
+#avaliar-estabelecimento .checklist-container .content-header .nome-local,
+#avaliar-estabelecimento .checklist-container .content-header .avaliacao-titulo,
+#avaliar-estabelecimento .checklist-container .content-header .texto-descricao {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 1.5rem;
+
+    width: 100%;
+}
+
+#avaliar-estabelecimento .checklist-container .content-header .categoria-especialidade {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+
+    margin-left: 1.5rem;
+}
+
+#avaliar-estabelecimento .checklist-container .content-header .inicio-avaliacao p,
+#avaliar-estabelecimento .checklist-container .content-header .texto-descricao p {
+    font: 500;
+    font-size: 1.6rem;
+    color: var(--small-text-default);
+    text-align: center;
+}
+ 
+#avaliar-estabelecimento .checklist-container .content-header .nome-local p,
+#avaliar-estabelecimento .checklist-container .content-header .avaliacao-titulo p {
+    font: 700;
+    font-size: 2.4rem;
+    color: var(--big-text-default);
+}
+
+#avaliar-estabelecimento .checklist-container .content-header .categoria-especialidade p {
+    font: 500;
+    font-size: 1.8rem;
+    color: var(--small-text-default);
+    margin-bottom: 1.5rem;
+}
+
+

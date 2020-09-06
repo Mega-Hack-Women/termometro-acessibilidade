@@ -28,6 +28,9 @@
     --color-input-border-hover: #032973;
     --color-input-background: #e4e4e4;
     --color-line-in-white: #FFFFFF;
+
+    --small-text-default: #000000;
+    --big-text-default: #032973;
 }
 
 * {

@@ -1,10 +1,13 @@
 from rest_framework import serializers
+from django_filters.rest_framework import FilterSet, filters
 from termometro.models import Usuario
 from termometro.models import Estabelecimento
 from termometro.models import Historico
 from termometro.models import CheckList
 
 # Termometro Serializer
+
+
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
@@ -21,7 +24,6 @@ class HistoricoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Historico
         fields = '__all__'
-
 
 
 class EstabelecimentoSerializer(serializers.ModelSerializer):
