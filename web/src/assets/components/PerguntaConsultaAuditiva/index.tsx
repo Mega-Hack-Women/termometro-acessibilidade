@@ -9,7 +9,7 @@ export default class PerguntaConsultaAuditiva extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://localhost:8000/api/checklist/?q=Auditiva`).then(res => {
+        axios.get(`http://localhost:8000/api/checklist/?deficiencia=Auditiva`).then(res => {
             this.setState({ checklists: res.data })
         });
     }

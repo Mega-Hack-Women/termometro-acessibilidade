@@ -9,7 +9,7 @@ export default class PerguntaConsultaFisica extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://localhost:8000/api/checklist/?q=Fisica`).then(res => {
+        axios.get(`http://localhost:8000/api/checklist/?deficiencia=Física`).then(res => {
             this.setState({ checklists: res.data })
         });
     }

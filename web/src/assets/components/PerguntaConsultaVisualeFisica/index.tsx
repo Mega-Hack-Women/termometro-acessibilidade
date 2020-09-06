@@ -9,7 +9,7 @@ export default class PerguntaConsultaVisualeFisica extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://localhost:8000/api/checklist/?q=VisualeFisica`).then(res => {
+        axios.get(`http://localhost:8000/api/checklist/?deficiencia=Visual e Física`).then(res => {
             this.setState({ checklists: res.data })
         });
     }

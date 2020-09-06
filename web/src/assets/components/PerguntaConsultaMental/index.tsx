@@ -9,7 +9,7 @@ export default class PerguntaConsultaMental extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://localhost:8000/api/checklist/?q=Mental`).then(res => {
+        axios.get(`http://localhost:8000/api/checklist/?deficiencia=Mental`).then(res => {
             this.setState({ checklists: res.data })
         });
     }

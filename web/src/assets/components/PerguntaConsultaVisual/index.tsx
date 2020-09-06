@@ -9,7 +9,7 @@ export default class PerguntaConsultaVisual extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://localhost:8000/api/checklist/?q=Visual`).then(res => {
+        axios.get(`http://localhost:8000/api/checklist/?deficiencia=Visual`).then(res => {
             this.setState({ checklists: res.data })
         });
     }

@@ -1,1 +1,32 @@
+.buttons {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem 0;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.buttons .button-cadastrar,.buttons .button-voltar {
+    width: 15rem;
+    height: 6.4rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Roboto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    text-decoration: none;
+}.buttons .button-cadastrar {
+    background-color: var(--color-second-button-background);
+    color: var(--color-second-button-text);
+}.buttons .button-cadastrar:hover {
+    background-color: var(--color-second-button-background-hover);
+    color: var(--color-second-button-text-hover);
+}.buttons .button-voltar {
+    background-color: var(--color-attention-button-background);
+    color: var(--color-attention-button-text);
+}.buttons .button-voltar:hover {
+    background-color: var(--color-attention-button-background-hover);
+    color: var(--color-attention-button-text-hover);
+}
