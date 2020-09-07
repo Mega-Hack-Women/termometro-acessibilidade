@@ -1,8 +1,8 @@
 import React from 'react';
 
 import PageHeader from '../../assets/components/PageHeader';
-import BotaoAtencao from '../../assets/BotaoAtencao';
-import BotaoSubmit from '../../assets/BotaoSubmit';
+import BotaoAtencao from '../../assets/components/BotaoAtencao';
+import BotaoSubmit from '../../assets/components/BotaoSubmit';
 
 import './styles.css';
 

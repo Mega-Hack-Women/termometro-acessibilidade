@@ -1,7 +1,7 @@
 import React from 'react';
 
 import PageHeader from '../../assets/components/PageHeader';
-import BotaoPrimarioGrande from '../../assets/BotaoPrimarioGrande';
+import BotaoPrimarioGrande from '../../assets/components/BotaoPrimarioGrande';
 
 import recepcaoFemmeMoema from '../../assets/images/recepcao-femme-moema.png';
 import termometro1 from '../../assets/images/termometro-1.png';
@@ -11,7 +11,7 @@ import termometro4 from '../../assets/images/termometro-4.png';
 import termometro5 from '../../assets/images/termometro-5.png';
 
 import './styles.css';
-import BotaoSecundarioPequeno from '../../assets/BotaoSecundarioPequeno';
+import BotaoSecundarioPequeno from '../../assets/components/BotaoSecundarioPequeno';
 
 function DetalheEstabelecimento() {
     return (

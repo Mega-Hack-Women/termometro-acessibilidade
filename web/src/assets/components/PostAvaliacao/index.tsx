@@ -8,8 +8,8 @@ import PerguntaConsultaMental from '../PerguntaConsultaMental';
 import PerguntaConsultaFisica from '../PerguntaConsultaFisica';
 import PerguntaConsultaVisualeFisica from '../PerguntaConsultaVisualeFisica';
 
-import BotaoAtencao from '../../BotaoAtencao';
-import BotaoSubmit from '../../BotaoSubmit';
+import BotaoAtencao from '../BotaoAtencao';
+import BotaoSubmit from '../BotaoSubmit';
 import './styles.css';
 
 export default class PostAvaliacao extends React.Component {
