@@ -1,5 +1,6 @@
 import React from 'react';
-import axios from 'axios';
+
+import api from '../../../services/api';
 
 import PerguntaQuestionario from '../PerguntaQuestionario';
 
@@ -9,7 +10,7 @@ export default class PerguntaConsultaMental extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://localhost:8000/api/checklist/?deficiencia=Mental`).then(res => {
+        api.get(`/checklist/?deficiencia=Mental`).then(res => {
             this.setState({ checklists: res.data })
         });
     }

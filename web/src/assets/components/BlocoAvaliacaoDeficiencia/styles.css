@@ -1,0 +1,19 @@
+.avaliacao-itens {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-around;
+}
+
+.avaliacao-itens .avaliacao-item {
+    margin: 0.5rem;
+
+    display: grid;
+    justify-content: center;
+}
+
+.avaliacao-itens .avaliacao-item .avaliacao-estrelas {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+}

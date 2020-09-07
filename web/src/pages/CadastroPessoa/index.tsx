@@ -19,6 +19,7 @@ function CadastroPessoa() {
     const [deficiencia, setDeficiencia] = useState('');
     const [data_nascimento, setDataNascimento] = useState('');
     const [email, setEmail] = useState('');
+    const [imagem, setImagem] = useState('');
 
     function handleCreateUser(e: FormEvent) {
         e.preventDefault();
@@ -27,11 +28,13 @@ function CadastroPessoa() {
             nome,
             deficiencia,
             data_nascimento,
-            email
+            email,
+            imagem
         }).then(() => {
             alert('Cadastro realizado com sucesso!');
-            history.push('/');
-        }).catch(() => {
+            history.push('/home');
+        }).catch((e) => {
+            console.log(e)
             alert('Erro no cadastro');
         })
     }
@@ -64,6 +67,7 @@ function CadastroPessoa() {
                 <Input name="email" label="E-mail" type="email" required value={email} onChange={(e) => { setEmail(e.target.value) }} />
                 <Input name="senha" label="Senha" type="password" required />
                 <Input name="confirma-senha" label="Confirma Senha" type="password" required />
+                <Input name="foto" label="Foto" type="file" value={imagem} onChange={(e) => { setImagem(e.target.value) }} />
 
                 <div className="botoes-display">
                     <BotaoSubmit title="CADASTRAR" />

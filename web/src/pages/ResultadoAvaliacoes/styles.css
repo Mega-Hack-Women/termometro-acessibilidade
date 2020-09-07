@@ -1,0 +1,55 @@
+#resultado-avaliacao {
+    width: 100vw;
+    height: 100vh;
+}
+
+#resultado-avaliacao main {
+    margin: 3rem;
+}
+
+.content .titulo {
+    font: 700;
+    font-size: 2.4rem;
+    color: var(--big-text-default);
+
+    display: flex;
+    justify-content: center;
+}
+
+.content .categoria-especializacao .especialidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--small-text-default);
+    margin: 2rem;
+}
+
+.content .categoria-especializacao .especialidade p:first-child {
+    margin-right: 4rem;
+}
+
+.content .header .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .header .imagem img {
+    width: 40rem;
+
+    margin: 2rem;
+}
+
+.content .avaliacao .descricao {    
+    color: var(--small-text-default);
+
+    display: flex;
+    text-align: center;
+
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+    margin: 2rem;
+}

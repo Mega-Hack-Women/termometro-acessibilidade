@@ -26,10 +26,10 @@ class HistoricoAvaliacaoViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self, *args, **kargs):
         queryset_list = HistoricoAvaliacao.objects.all()
-        query = self.request.GET.get("q")
+        query = self.request.GET.get("prestador")
         if query:
             queryset_list = queryset_list.filter(
-                Q(deficiencia__icontains=query)
+                Q(prestador_id__icontains=query)
             ).distinct()
         return queryset_list
 

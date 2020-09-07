@@ -1,5 +1,6 @@
 import React from 'react';
-import axios from 'axios';
+
+import api from '../../../services/api';
 
 import SeparadorDeficiencia from '../SeparadorDeficiencia';
 import PerguntaConsultaAuditiva from '../PerguntaConsultaAuditiva';
@@ -34,7 +35,7 @@ export default class PostAvaliacao extends React.Component {
             checklist: this.state.checklist
         }
 
-        axios.post(`http://localhost:8000/api/historico/`, { historico })
+        api.post(`/historico/`, { historico })
             .then(res => {
                 console.log(res);
                 console.log(res.data);

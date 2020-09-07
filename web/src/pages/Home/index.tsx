@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import PageHeader from '../../assets/components/PageHeader';
+import BotaoHome from '../../assets/components/BotaoHome';
 
 import logoImg from '../../assets/images/logo_Final_Cor.svg';
 
 import './styles.css';
-import BotaoHome from '../../assets/components/BotaoHome';
 
 function Home() {
     return (

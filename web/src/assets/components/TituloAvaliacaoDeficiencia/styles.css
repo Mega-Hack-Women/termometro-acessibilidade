@@ -1,0 +1,12 @@
+.avaliacao-deficiencia {
+    width: 15rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.avaliacao-deficiencia p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+}
