@@ -3,15 +3,16 @@
 
     --color-background: #F0F0F7;
 
-    --color-primary-button-text: #000000;
-    --color-primary-button-text-hover: #000000;
-    --color-primary-button-background: #ffffff;
-    --color-primary-button-background-hover: #e4e4e4;
+    --color-primary-button-text: #FFFFFF;
+    --color-primary-button-text-hover: #ffffff;
+    --color-primary-button-background: #000000;
+    --color-primary-button-background-hover: #1f1f1f;
 
-    --color-second-button-text: #FFFFFF;
-    --color-second-button-text-hover: #ffffff;
-    --color-second-button-background: #000000;
-    --color-second-button-background-hover: #1f1f1f;
+    --color-second-button-text: #000000;
+    --color-second-button-text-hover: #000000;
+    --color-second-button-background: #ffffff;
+    --color-second-button-background-hover: #e4e4e4;
+    --color-second-button-border: #acabab;
 
     --color-attention-button-text: #FFFFFF;
     --color-attention-button-text-hover: #FFFFFF;
@@ -22,13 +23,12 @@
     --color-light-blue: #209EBB;
     --color-lighter-blue: #8FCAE5;
 
-    --color-text-base: #032973;
-
     --color-input-border: #FFFFFF;
     --color-input-border-hover: #032973;
     --color-input-background: #e4e4e4;
     --color-line-in-white: #FFFFFF;
-
+    
+    --color-text-base: #032973;
     --small-text-default: #000000;
     --big-text-default: #032973;
 }

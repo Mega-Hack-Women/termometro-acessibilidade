@@ -9,7 +9,7 @@ import CadastroEstabelecimento from './pages/CadastroEstabelecimento';
 import CadastroPessoa from './pages/CadastroPessoa';
 import PesquisaEstabelecimento from './pages/PesquisaEstabelecimento';
 import ResultadoAvaliacoes from './pages/ResultadoAvaliacoes';
-import ResultadoEstabelecimento from './pages/ResultadoEstabelecimento';
+import DetalheEstabelecimento from './pages/DetalheEstabelecimento';
 import SucessoCadastro from './pages/SucessoCadastro';
 import PoliticasPrivacidade from './pages/PoliticasPrivacidade';
 
@@ -24,7 +24,7 @@ function Routes() {
             <Route path="/cadastro-pessoa" component={CadastroPessoa} />
             <Route path="/pesquisa-estabelecimento" component={PesquisaEstabelecimento} />
             <Route path="/resultado-avaliacoes" component={ResultadoAvaliacoes} />
-            <Route path="/resultado-estabelecimento" component={ResultadoEstabelecimento} />
+            <Route path="/detalhe-estabelecimento" component={DetalheEstabelecimento} />
             <Route path="/sucesso-cadastro" component={SucessoCadastro} />
         </BrowserRouter>
     )
