@@ -1,0 +1,27 @@
+
+.buttons .botao-cadastrar {
+    padding: 1.2rem;
+    width: 18rem;
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    background: var(--color-primary-button-background);
+    
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: var(--color-primary-button-text);
+
+    border: 0px;
+
+    margin-right: 1.5rem;
+
+    cursor: pointer;
+}
+
+.buttons .botao-cadastrar:hover {
+    background: var(--color-primary-button-background-hover);
+    color: var(--color-primary-button-text-hover);
+}

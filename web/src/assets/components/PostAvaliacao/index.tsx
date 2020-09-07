@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 
 import SeparadorDeficiencia from '../SeparadorDeficiencia';
 import PerguntaConsultaAuditiva from '../PerguntaConsultaAuditiva';
@@ -9,7 +8,10 @@ import PerguntaConsultaMental from '../PerguntaConsultaMental';
 import PerguntaConsultaFisica from '../PerguntaConsultaFisica';
 import PerguntaConsultaVisualeFisica from '../PerguntaConsultaVisualeFisica';
 
+import BotaoAtencao from '../../BotaoAtencao';
+import BotaoSubmit from '../../BotaoSubmit';
 import './styles.css';
+
 export default class PostAvaliacao extends React.Component {
     state = {
         usuario: '',
@@ -62,12 +64,10 @@ export default class PostAvaliacao extends React.Component {
 
                 <PerguntaConsultaVisualeFisica />
 
-
-                <div className="buttons">
-                    <button type="submit" className="button-cadastrar">Avaliar</button>
-                    <Link to="/" className="button-voltar">Cancelar</Link>
+                <div className="botoes-display">
+                    <BotaoSubmit title="AVALIAR" />
+                    <BotaoAtencao link="/" title="CANCELAR" />
                 </div>
-
             </form>
         )
     }

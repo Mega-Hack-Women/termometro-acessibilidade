@@ -1,0 +1,33 @@
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.buttons .botao-atencao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .botao-atencao a {
+    padding: 1.2rem;
+    width: 18rem;
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    background: var(--color-attention-button-background);
+    
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: var(--color-attention-button-text);
+}
+
+.buttons .botao-atencao a:hover {
+    background: var(--color-attention-button-background-hover);
+    color: var(--color-attention-button-text-hover);
+}
