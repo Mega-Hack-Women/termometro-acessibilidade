@@ -1,0 +1,33 @@
+.buttons-home {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+    margin-bottom: 1.5rem;
+}
+
+.buttons-home .botao-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-home .botao-home a {
+    padding: 0.8rem;
+    width: 40rem;
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    background: var(--color-line-in-white);
+    
+    
+    border-radius: 1rem;
+
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--small-text-default);
+}

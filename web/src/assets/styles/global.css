@@ -31,6 +31,8 @@
     --color-text-base: #032973;
     --small-text-default: #000000;
     --big-text-default: #032973;
+
+    --color-background-contrast: #032973;
 }
 
 * {

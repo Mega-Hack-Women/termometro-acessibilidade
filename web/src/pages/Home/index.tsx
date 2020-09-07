@@ -1,37 +1,42 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logoImg from '../../assets/images/logo_Final_Cor.svg'
+import PageHeader from '../../assets/components/PageHeader';
+
+import logoImg from '../../assets/images/logo_Final_Cor.svg';
 
 import './styles.css';
+import BotaoHome from '../../assets/components/BotaoHome';
 
-function Landing() {
+function Home() {
     return (
-        <div className="page-landing">
-            <div className="logo">
-                <h1>AcesSaúde</h1>
-            </div>
-            <div className="hero-image">
-                <img src={logoImg} alt="Logo AcesSaúde"/>
-            </div>
+        <div id="page-home" className="container">
 
-            <div className="buttons-container">
-                <Link to="/cadastro-pessoa" className="novo-cadastro">
-                    Novo Cadastro
-                </Link>
+            <PageHeader title="Home" />
 
-                <Link to="/login" className="login">
-                    Login
-                </Link>
-            </div>
+            <main>
+                <div className="hero-image">
+                    <img src={logoImg} alt="Logo AcesSaúde" />
+                </div>
 
-            <div className="politicas-privacidade">
-                <Link to="/politicas-privacidade" className="politicas-privacidade">
-                    Políticas de Privacidade
-                </Link>
-            </div>
+                <div className="logo">
+                    <h1>AcesSaúde</h1>
+                </div>
+
+                <div className="bottom-pesquisa">
+
+                    <BotaoHome link="/pesquisa-estabelecimento" title="REALIZAR PESQUISA" />
+
+                    <BotaoHome link="/" title="CADASTRAR LOCAIS" />
+
+                    <div className="separador"></div>
+
+                    <BotaoHome link="/" title="MEU PERFIL" />
+
+                </div>
+            </main>
         </div>
-    ) 
+    )
 }
 
-export default Landing;
+export default Home;
