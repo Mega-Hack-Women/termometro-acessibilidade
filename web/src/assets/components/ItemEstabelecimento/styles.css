@@ -1,0 +1,57 @@
+.estabelecimento-item {
+    display: flex;
+    justify-content: left;
+
+    margin-top: 1.5rem;
+}
+
+.estabelecimento-item .texto {
+    margin-left: 1.5rem;
+}
+
+.estabelecimento-item .imagem img {
+    width: 15rem;
+}
+
+.estabelecimento-item .titulo {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    
+    color: var(--small-text-default);
+    opacity: 87%;
+}
+
+.estabelecimento-item .especialidade {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    
+    color: var(--small-text-default);
+    opacity: 60%;
+
+    margin-bottom: 1.5rem;
+}
+
+.estabelecimento-item .funcionamento {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    
+    color: var(--small-text-default);
+    opacity: 60%;
+}
+
+.content .avaliar {
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-top: -3.2rem;
+
+}
+
+.content .separador {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--small-text-default);
+}

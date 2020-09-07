@@ -1,0 +1,62 @@
+[
+    {
+        "detalhe_checklist": "Os sinais sonoros existentes no ambiente são acompanhados por sinais luminosos?",
+        "deficiencia": "Auditiva"
+    },
+    {
+        "detalhe_checklist": "Há possibilidade de recebimento e envio de mensagens escritas?",
+        "deficiencia": "Auditiva"
+    },
+    {
+        "detalhe_checklist": "Existe profissional com conhecimento em Libras para auxiliar no atendimento?",
+        "deficiencia": "Auditiva"
+    },
+    {
+        "detalhe_checklist": "Há portões laterais em catracas e portas giratórias e as portas tem largura minima de 0,80m?",
+        "deficiencia": "Física"
+    },
+    {
+        "detalhe_checklist": "Os balcões de atendimento, inclusive automáticos, permitem a aproximação frontal de pelo menos uma cadeira de rodas?",
+        "deficiencia": "Física"
+    },
+    {
+        "detalhe_checklist": "Os elevadores possuem abertura de acesso de no mínimo 0,80m de largura e botoeiras com altura de no mínimo 0,80m e no máximo 1,20m?",
+        "deficiencia": "Física"
+    },
+    {
+        "detalhe_checklist": "Há reserva de vagas no estacionamento para pessoas portadoras de deficiência, bem como sinalização com placas para identificá-las?",
+        "deficiencia": "Física"
+    },
+    {
+        "detalhe_checklist": "Os banheiros do estabelecimento estão adaptados, com barras laterais no sanitario, área suficiente para manobra de cadeira de rodas, porta de acesso de 0,80m e torneiras de fácil manuseio (½ volta, alavanca, monocomando ou com célula fotoelétrica)?",
+        "deficiencia": "Física"
+    },
+    {
+        "detalhe_checklist": "O estabelecimento tem profissionais treinados em lidar e dar acolhimento aos diferentes tipos de deficiências mentais?",
+        "deficiencia": "Mental"
+    },
+    {
+        "detalhe_checklist": "Desde reduzir o barulho do ambiente como plantas e materiais que isolam o som, criar um padrão de cores para diferenciar e guiar o uso de cada ambiente ou até mesmo usar materiais que não provoquem crises em pessoas autistas.",
+        "deficiencia": "Mental"
+    },
+    {
+        "detalhe_checklist": "Nas áreas de circulação há faixas no piso, com textura e cor diferenciadas, para facilitar a identificação do percurso?",
+        "deficiencia": "Visual"
+    },
+    {
+        "detalhe_checklist": "Há nos elevadores, terminais de atendimento e demais serviços placas e teclados em Braile?",
+        "deficiencia": "Visual"
+    },
+    {
+        "detalhe_checklist": "Os sinais luminosos são acompanhados por comunicação auditiva de entendimento adequado?",
+        "deficiencia": "Visual"
+    },
+    {
+        "detalhe_checklist": "O estabelecimento possui trajetos (desde a entrada até o atendimento) livres de obstaculos?",
+        "deficiencia": "Visual e Física"
+    },
+    {
+        "detalhe_checklist": "A disposição de mobiliários garatem área  para a circulação",
+        "deficiencia": "Visual e Física"
+    }
+]

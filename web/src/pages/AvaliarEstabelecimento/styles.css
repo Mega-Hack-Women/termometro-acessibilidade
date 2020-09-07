@@ -24,11 +24,15 @@
 }
 
 #avaliar-estabelecimento .checklist-container .content-header .categoria-especialidade {
-    display: grid;
-    justify-content: left;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
     margin-left: 1.5rem;
+}
+
+#avaliar-estabelecimento .checklist-container .content-header .categoria-especialidade p:first-child {
+    margin-right: 4rem;
 }
 
 #avaliar-estabelecimento .checklist-container .content-header .inicio-avaliacao p,

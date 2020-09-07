@@ -1,0 +1,87 @@
+[
+    {
+        "stmt": "SELECT * FROM `termometro_checklist`;",
+        "header": [
+            "checklist_id",
+            "deficiencia",
+            "detalhe_checklist"
+        ],
+        "rows": [
+            [
+                "1",
+                "Auditiva",
+                "Os sinais sonoros existentes no ambiente são acompanhados por sinais luminosos?"
+            ],
+            [
+                "2",
+                "Auditiva",
+                "Há possibilidade de recebimento e envio de mensagens escritas?"
+            ],
+            [
+                "3",
+                "Auditiva",
+                "Existe profissional com conhecimento em Libras para auxiliar no atendimento?"
+            ],
+            [
+                "4",
+                "Física",
+                "Há portões laterais em catracas e portas giratórias e as portas tem largura minima de 0,80m?"
+            ],
+            [
+                "5",
+                "Física",
+                "Os balcões de atendimento, inclusive automáticos, permitem a aproximação frontal de pelo menos uma cadeira de rodas?"
+            ],
+            [
+                "6",
+                "Física",
+                "Os elevadores possuem abertura de acesso de no mínimo 0,80m de largura e botoeiras com altura de no mínimo 0,80m e no máximo 1,20m?"
+            ],
+            [
+                "7",
+                "Física",
+                "Há reserva de vagas no estacionamento para pessoas portadoras de deficiência, bem como sinalização com placas para identificá-las?"
+            ],
+            [
+                "8",
+                "Física",
+                "Os banheiros do estabelecimento estão adaptados, com barras laterais no sanitario, área suficiente para manobra de cadeira de rodas, porta de acesso de 0,80m e torneiras de fácil manuseio (½ volta, alavanca, monocomando ou com célula fotoelétrica)?"
+            ],
+            [
+                "9",
+                "Mental",
+                "O estabelecimento tem profissionais treinados em lidar e dar acolhimento aos diferentes tipos de deficiências mentais?"
+            ],
+            [
+                "10",
+                "Mental",
+                "Desde reduzir o barulho do ambiente como plantas e materiais que isolam o som, criar um padrão de cores para diferenciar e guiar o uso de cada ambiente ou até mesmo usar materiais que não provoquem crises em pessoas autistas."
+            ],
+            [
+                "11",
+                "Visual",
+                "Nas áreas de circulação há faixas no piso, com textura e cor diferenciadas, para facilitar a identificação do percurso?"
+            ],
+            [
+                "12",
+                "Visual",
+                "Há nos elevadores, terminais de atendimento e demais serviços placas e teclados em Braile?"
+            ],
+            [
+                "13",
+                "Visual",
+                "Os sinais luminosos são acompanhados por comunicação auditiva de entendimento adequado?"
+            ],
+            [
+                "14",
+                "Visual e Física",
+                "O estabelecimento possui trajetos (desde a entrada até o atendimento) livres de obstaculos?"
+            ],
+            [
+                "15",
+                "Visual e Física",
+                "A disposição de mobiliários garatem área  para a circulação"
+            ]
+        ]
+    }
+]

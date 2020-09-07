@@ -44,7 +44,7 @@ html, body, #root {
 }
 
 body {
-    background: var(--color-background);
+    background: #FFFFFF;
 }
 
 #root {

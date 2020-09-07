@@ -1,0 +1,29 @@
+[
+    {
+        "stmt": "SELECT * FROM `termometro_estabelecimento`;",
+        "header": [
+            "prestador_id",
+            "nome_prestador",
+            "descricao",
+            "site",
+            "hora_funcionamento",
+            "dias_funcionamento",
+            "categoria",
+            "especialidade",
+            "image"
+        ],
+        "rows": [
+            [
+                "1",
+                "Femme - Moema",
+                "O FEMME é um laboratório pioneiro em Medicina Diagnóstica dedicado exclusivamente à saúde da mulher, com destaque para a prevenção do Câncer Ginecológico e Medicina Fetal. Toda a estrutura foi cuidadosamente planejada dentro do conceito de atendimento especializado, aliando recursos modernos e mais conforto para nossas pacientes.",
+                "https://laboratoriodamulher.com.br/o-femme/",
+                "06:30  -  22:00",
+                "Segunda à Sábado",
+                "Saúde da Mulher",
+                "Prevenção de Câncer",
+                "recepcao-femme-moema"
+            ]
+        ]
+    }
+]

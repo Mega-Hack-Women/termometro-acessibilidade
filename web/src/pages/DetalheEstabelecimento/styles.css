@@ -124,8 +124,9 @@
     margin-right: 3rem; 
 }
 
-.buttons {
+.buttons-detalhe {
     display: flex;
     justify-content: center;
-    margin-top: -2rem;
+
+    
 }

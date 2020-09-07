@@ -8,6 +8,7 @@ class Usuario(models.Model):
     data_nascimento = models.DateField()
     deficiencia = models.CharField(max_length=100)
     cadastrado_em = models.DateTimeField(auto_now_add=True)
+    imagem = models.CharField(max_length=800)
 
 
 class CheckList(models.Model):
@@ -35,3 +36,4 @@ class Estabelecimento(models.Model):
     dias_funcionamento = models.CharField(max_length=100)
     categoria = models.CharField(max_length=100)
     especialidade = models.CharField(max_length=100)
+    image = models.CharField(max_length=800)
