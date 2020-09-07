@@ -1,8 +1,8 @@
 from django.db.models import Q
 
-from termometro.models import Usuario, HistoricoAvaliacao, CheckList, Estabelecimento
+from termometro.models import Usuario, HistoricoAvaliacao, CheckList, Estabelecimento, RespostaAvaliacao
 from rest_framework import viewsets, permissions
-from .serializers import UsuarioSerializer, HistoricoAvaliacaoSerializer, CheckListSerializer, EstabelecimentoSerializer
+from .serializers import UsuarioSerializer, HistoricoAvaliacaoSerializer, CheckListSerializer, EstabelecimentoSerializer, RespostaAvaliacaoSerializer
 
 # Usuario Viewset
 
@@ -62,6 +62,24 @@ class EstabelecimentoViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self, *args, **kargs):
         queryset_list = Estabelecimento.objects.all()
+        query = self.request.GET.get("prestador")
+        if query:
+            queryset_list = queryset_list.filter(
+                Q(prestador_id__icontains=query)
+            ).distinct()
+        return queryset_list
+
+
+class RespostaAvaliacaoViewSet(viewsets.ModelViewSet):
+    queryset = RespostaAvaliacao.objects.all()
+    permission_classes = [
+        permissions.AllowAny
+    ]
+
+    serializer_class = RespostaAvaliacaoSerializer
+
+    def get_queryset(self, *args, **kargs):
+        queryset_list = RespostaAvaliacao.objects.all()
         query = self.request.GET.get("prestador")
         if query:
             queryset_list = queryset_list.filter(

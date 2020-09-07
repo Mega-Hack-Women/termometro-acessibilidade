@@ -1,0 +1,19 @@
+#cadastro-pessoa {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cadastro {
+    margin: 3rem;
+}
+
+#cadastro-pessoa .texto-principal {
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 3rem auto;
+}

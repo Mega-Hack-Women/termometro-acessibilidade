@@ -1,4 +1,16 @@
 #page-landing {
     width: 100vw;
     height: 100vh;
+
+    background: url('../../assets/images/circulo-1.png');
+}
+
+#page-landing .hero-image img {
+    width: 100%;
+    opacity: 80%;
+}
+
+.descricao {
+    margin: 4rem;
+    color: (--small-text-default);
 }

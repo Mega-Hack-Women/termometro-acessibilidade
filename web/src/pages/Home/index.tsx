@@ -26,7 +26,7 @@ function Home() {
 
                     <BotaoHome link="/pesquisa-estabelecimento" title="REALIZAR PESQUISA" />
 
-                    <BotaoHome link="/" title="CADASTRAR LOCAIS" />
+                    <BotaoHome link="/cadastro-estabelecimento" title="CADASTRAR LOCAIS" />
 
                     <div className="separador"></div>
 

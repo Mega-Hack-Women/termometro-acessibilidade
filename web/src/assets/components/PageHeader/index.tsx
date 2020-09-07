@@ -9,13 +9,13 @@ interface PageHeaderProps {
     title: string;
 }
 
-const PageHeader:React.FC<PageHeaderProps> = (props) => {
+const PageHeader: React.FC<PageHeaderProps> = (props) => {
     return (
         <header className="page-header">
             <div className="top-bar">
-                <img src={menuIcon} alt="Menu"/>
+                <img src={menuIcon} alt="Menu" />
                 <strong>{props.title}</strong>
-                <img src={perfilIcon} alt="Perfil"/>
+                <a href="/Home"><img src={perfilIcon} alt="Perfil" /></a>
             </div>
         </header>
     )

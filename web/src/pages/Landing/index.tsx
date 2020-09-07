@@ -1,37 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import logoImg from '../../assets/images/logo_Final_Cor.svg'
+import PageHeader from '../../assets/components/PageHeader';
 
 import './styles.css';
 
+import fotoCadeiraRodas from '../../assets/images/pessoa-em-cadeira-de-rodas-foto-de-marcus-aurelius-no-pexels.jpg'
+import BotaoSecundarioPequeno from '../../assets/components/BotaoSecundarioPequeno';
+import BotaoPrimarioGrande from '../../assets/components/BotaoPrimarioGrande';
+
 function Landing() {
     return (
-        <div className="page-landing">
-            <div className="logo">
-                <h1>AcesSaúde</h1>
-            </div>
+        <div id="page-landing" className="container">
+            <PageHeader title="Home" />
+
             <div className="hero-image">
-                <img src={logoImg} alt="Logo AcesSaúde"/>
+                <img src={fotoCadeiraRodas} alt="Foto homem em cadeira de rodas" />
             </div>
 
-            <div className="buttons-container">
-                <Link to="/cadastro-pessoa" className="novo-cadastro">
-                    Novo Cadastro
-                </Link>
+            <div className="textos">
+                <div className="logo">
+                    <h1>AcesSaúde</h1>
+                </div>
 
-                <Link to="/login" className="login">
-                    Login
-                </Link>
+                <div className="descricao">
+                    <p>O AcesSaude é um guia completo para acompanhar a saúde com foco no paciente com deficiência. Incluindo guia médico com classificações de acessibilidades feitas pelos próprios usuários.</p>
+                </div>
             </div>
 
-            <div className="politicas-privacidade">
-                <Link to="/politicas-privacidade" className="politicas-privacidade">
-                    Políticas de Privacidade
-                </Link>
+            <BotaoPrimarioGrande title="CADASTRE-SE" link="/cadastro-pessoa" />
+
+            <div className="botoes-display">
+                <BotaoSecundarioPequeno title="LOGIN" link="/" />
+                <BotaoSecundarioPequeno title="CONHECA-NOS" link="/" />
             </div>
         </div>
-    ) 
+    )
 }
 
 export default Landing;

@@ -37,3 +37,23 @@ class Estabelecimento(models.Model):
     categoria = models.CharField(max_length=100)
     especialidade = models.CharField(max_length=100)
     image = models.CharField(max_length=800)
+
+
+class RespostaAvaliacao(models.Model):
+    resposta_avaliacao_id = models.AutoField(primary_key=True)
+    prestador_id = models.IntegerField()
+    pergunta_1 = models.CharField(max_length=1)
+    pergunta_2 = models.CharField(max_length=1)
+    pergunta_3 = models.CharField(max_length=1)
+    pergunta_4 = models.CharField(max_length=1)
+    pergunta_5 = models.CharField(max_length=1)
+    pergunta_6 = models.CharField(max_length=1)
+    pergunta_7 = models.CharField(max_length=1)
+    pergunta_8 = models.CharField(max_length=1)
+    pergunta_9 = models.CharField(max_length=1)
+    pergunta_10 = models.CharField(max_length=1)
+    pergunta_11 = models.CharField(max_length=1)
+    pergunta_12 = models.CharField(max_length=1)
+    pergunta_13 = models.CharField(max_length=1)
+    pergunta_14 = models.CharField(max_length=1)
+    pergunta_15 = models.CharField(max_length=1)
