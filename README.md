@@ -6,6 +6,13 @@ A AcesSaúde é uma plataforma de gerenciamento de saúde que quer priorizar a m
 
 É preciso que essas informações sejam organizadas de maneira acessível e centralizada para que as barreiras da deficiência não impeça a PCD de ter o controle sobre a própria saúde.
 
+[Pitch](https://github.com/Mega-Hack-Women/termometro-acessibilidade/blob/main/arquivos/VideoPitch.mp4)
+
+[Apresentação PDF](https://github.com/Mega-Hack-Women/termometro-acessibilidade/blob/main/arquivos/AcesSaude_FINAL.pdf)
+
+[Video Demo]()
+
+
 ## Termômetro de Acessibilidade
 
 Funcionalidades:
