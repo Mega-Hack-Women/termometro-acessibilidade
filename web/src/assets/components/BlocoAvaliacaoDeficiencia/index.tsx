@@ -30,8 +30,8 @@ export default class BlocoAvaliacaoDeficiencia extends React.Component {
 
                         <div className="avaliacao-estrelas">
                             <EstrelaPreenchida />
-                            <EstrelaVazia />
-                            <EstrelaVazia />
+                            <EstrelaPreenchida />
+                            <EstrelaPreenchida />
                             <EstrelaVazia />
                             <EstrelaVazia />
                         </div>
